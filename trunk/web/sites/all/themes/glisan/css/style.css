@@ -14,6 +14,7 @@ body, h1, h2, h3, h4, a {
 div.main-container.container {
 	background:white;
 	border-radius:9px;
+	
 
 }
 
@@ -114,7 +115,7 @@ body {
 
 div.container {
 	width:96%;
-	padding:0px 15px;
+	padding:10px;
 }
 
 div.main-container.container {
@@ -149,7 +150,7 @@ body {
 
 div.container {
 	width:94%;
-	padding:0px 15px;
+	padding:12px;
 }
 
 div.main-container.container {
@@ -208,7 +209,7 @@ div.container {
 
 div.main-container.container {
 	background:white;
-	padding:0px 15px;
+	padding:15px;
 	width:90%;
 }
 
@@ -262,7 +263,7 @@ div.container {
 
 div.main-container.container {
 	background:white;
-	padding:0px 15px;
+	padding:15px;
 	width:88%;
 	
 }
