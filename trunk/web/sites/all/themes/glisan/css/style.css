@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+
+/* **UNIVERSAL** */
+
+	
+
+body, h1, h2, h3, h4, a {
+	font-family: 'Oxygen', sans-serif !important;
+}
+
+div.main-container.container {
+	background:white;
+	border-radius:9px;
+
+}
+
+div.navbar-collapse.collapse {
+	padding:0px;
+}
+
+h1.page-header {
+	display:none;
+}
+
+h1, h2 {
+	margin:0px;
+	padding:8px 10px;
+}
+
+h2.pane-title {
+	font-size:.8em;
+	color:white;
+	line-height:130%;
+	text-transform:uppercase;
+	letter-spacing:.5px;
+	
+}
+
+div.panel-panel.panel-col h2.pane-title {
+	background:red;
+}
+div.panel-panel.panel-col-first h2.pane-title {
+	background:green;
+}
+div.panel-panel.panel-col-last h2.pane-title {
+	background:black;
+}
+
+div.pane-content h3 {
+	background:#eeeeee;
+	color:#999;
+	text-align:center;
+		text-transform:uppercase;
+	letter-spacing:.5px;
+	font-size:.7em;
+	margin:12px 0px 0px;
+	padding:2%;
+}
+	
+
+
+
+div.pane-content p img {
+	width:100%;
+	height:auto;
+}
+
+
+
+
+/* Extra Small */ /* BREAKPOINT */
+@media(max-width:479px){
+	
+body {
+	background:red;
+}
+
+div.container {
+	width:96%;
+	padding:0px 15px;
+}
+
+div.main-container.container {
+	background:white;
+	border-radius:9px;
+	width:96%;
+}
+
+div.panel-panel.panel-col,
+div.panel-panel.panel-col-first,
+div.panel-panel.panel-col-last {
+	width:100%;
+
+	
+}
+ div.panel-panel.panel-col div.inside,
+  div.panel-panel.panel-col-first div.inside,
+   div.panel-panel.panel-col-last div.inside
+ {
+	
+	margin:0px 0px 1em 0px;
+}
+}
+
+/* Small */ /* BREAKPOINT */
+@media(min-width:480px) and (max-width:767px){
+	
+body {
+	background:green;
+}
+
+div.container {
+	width:96%;
+	padding:0px 15px;
+}
+
+div.main-container.container {
+	background:white;
+	border-radius:9px;
+	width:96%;
+}
+
+div.panel-panel.panel-col,
+div.panel-panel.panel-col-first,
+div.panel-panel.panel-col-last {
+	width:100%;
+	
+}
+ div.panel-panel.panel-col div.inside,
+  div.panel-panel.panel-col-first div.inside,
+   div.panel-panel.panel-col-last div.inside
+ {
+	
+	margin:0px 0px 1em 0px;
+}
+
+}
+
+
+/* Tablet */ /* BREAKPOINT */
+@media(min-width:768px) and (max-width:991px){
+	
+body {
+	background:yellow;
+}
+
+div.container {
+	width:94%;
+	padding:0px 15px;
+}
+
+div.main-container.container {
+	background:white;
+	border-radius:9px;
+	width:94%;
+}
+
+div.panel-panel.panel-col {
+	width:50%;
+}
+
+div.panel-panel.panel-col-first {
+width:23%;
+float:left;
+	margin-right:2%;
+}
+
+div.panel-panel.panel-col-last{
+width:23%;
+float:right;
+	margin-left:2%;
+}
+
+div.panel-panel.panel-col,
+div.panel-panel.panel-col-first,
+div.panel-panel.panel-col-last {
+	border:1px solid black;
+	
+}
+
+ div.panel-panel.panel-col div.inside,
+  div.panel-panel.panel-col-first div.inside,
+   div.panel-panel.panel-col-last div.inside
+ {
+	
+	margin:0px;
+}
+
+
+}
+
+
+
+/* Medium */  /* BREAKPOINT */
+@media(min-width:992px) and (max-width:1199px){
+	
+body {
+	background:gray;
+}
+
+div.container {
+	width:90%;
+	padding:0px;
+}
+
+div.main-container.container {
+	background:white;
+	padding:0px 15px;
+	width:90%;
+}
+
+div.panel-panel.panel-col {
+	width:50%;
+}
+
+div.panel-panel.panel-col-first {
+width:23%;
+float:left;
+	margin-right:2%;
+}
+
+div.panel-panel.panel-col-last{
+width:23%;
+float:right;
+	margin-left:2%;
+}
+
+div.panel-panel.panel-col,
+div.panel-panel.panel-col-first,
+div.panel-panel.panel-col-last {
+	border:1px solid black;
+	
+}
+
+ div.panel-panel.panel-col div.inside,
+  div.panel-panel.panel-col-first div.inside,
+   div.panel-panel.panel-col-last div.inside
+ {
+	
+	margin:0px;
+}
+
+
+}
+
+
+/* Large */ /* BREAKPOINT */
+@media(min-width:1200px){
+	
+body {
+	background:blue;
+}
+
+div.container {
+	width:88%;
+	padding:0px;
+	max-width:1600px;
+}
+
+div.main-container.container {
+	background:white;
+	padding:0px 15px;
+	width:88%;
+	
+}
+
+div.panel-panel.panel-col {
+	width:50%;
+}
+
+div.panel-panel.panel-col-first {
+width:23%;
+float:left;
+	margin-right:2%;
+	border-right:1px solid black;
+	 
+}
+
+div.panel-panel.panel-col-last{
+width:23%;
+float:right;
+	margin-left:2%;
+	border-left:1px solid black;
+	
+}
+
+div.panel-panel.panel-col,
+div.panel-panel.panel-col-first,
+div.panel-panel.panel-col-last {
+	border-top:1px solid black;
+	
+}
+
+ div.panel-panel.panel-col div.inside,
+  div.panel-panel.panel-col-first div.inside,
+   div.panel-panel.panel-col-last div.inside
+ {
+	
+	margin:0px;
+}
+
+div.panel-panel.panel-col p {
+	width:100%;
+	margin:12px auto;
+	padding:0%;
+}
+
+div.panel-panel.panel-col-first p,
+div.panel-panel.panel-col-last p {
+	width:94%;
+	margin:12px auto;
+	padding:0% 3%;
+}
+
+/* P INTRO? */
+
+}
