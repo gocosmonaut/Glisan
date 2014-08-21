@@ -28,37 +28,40 @@ h1.page-header {
 
 h1, h2 {
 	margin:0px;
-	padding:8px 10px;
+	padding:6px 10px;
 }
 
 h2.pane-title {
-	font-size:.8em;
+	font-size:.85em;
 	color:white;
-	line-height:130%;
+	line-height:135%;
 	text-transform:uppercase;
 	letter-spacing:.5px;
-	
+	border-radius:4px;
 }
 
 div.panel-panel.panel-col h2.pane-title {
-	background:red;
+	background:#aaa;
 }
 div.panel-panel.panel-col-first h2.pane-title {
-	background:green;
+	background:#ccc;
 }
 div.panel-panel.panel-col-last h2.pane-title {
-	background:black;
+	background:#ccc;
 }
 
 div.pane-content h3 {
-	background:#eeeeee;
-	color:#999;
-	text-align:center;
-		text-transform:uppercase;
-	letter-spacing:.5px;
-	font-size:.7em;
-	margin:12px 0px 0px;
-	padding:2%;
+	background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    color: #999;
+    font-size: 0.75em;
+    letter-spacing: 0.5px;
+    margin: 15px auto 20px;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 40%;
 }
 	
 
@@ -252,7 +255,7 @@ div.panel-panel.panel-col-last {
 @media(min-width:1200px){
 	
 body {
-	background:blue;
+	background:#fff;
 }
 
 div.container {
@@ -273,25 +276,25 @@ div.panel-panel.panel-col {
 }
 
 div.panel-panel.panel-col-first {
-width:23%;
+width:22%;
 float:left;
-	margin-right:2%;
-	border-right:1px solid black;
+	margin-right:3%;
+	
 	 
 }
 
 div.panel-panel.panel-col-last{
-width:23%;
+width:22%;
 float:right;
-	margin-left:2%;
-	border-left:1px solid black;
+	margin-left:3%;
+	
 	
 }
 
 div.panel-panel.panel-col,
 div.panel-panel.panel-col-first,
 div.panel-panel.panel-col-last {
-	border-top:1px solid black;
+	
 	
 }
 
