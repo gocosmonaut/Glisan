@@ -50,6 +50,10 @@ div.panel-panel.panel-col-last h2.pane-title {
 	background:#ccc;
 }
 
+div.pane-content {
+	margin-bottom:30px;
+}
+
 div.pane-content h3 {
 	background: none repeat scroll 0 0 #fff;
     border: 1px solid #ccc;
@@ -70,9 +74,35 @@ div.pane-content h3 {
 div.pane-content p img {
 	width:100%;
 	height:auto;
+	box-shadow: 0 0 5px #ccc;
+}
+
+/* no drop shadow for some portfolio images */
+
+div.pane-block-1 div.pane-content p img,
+div.pane-block-17 div.pane-content p img {
+box-shadow:none;
+}
+
+/* footer panel image */
+
+div.pane-block-7 div.pane-content p {
+	text-align:center;
 }
 
 
+
+
+header#navbar.affix {
+	box-shadow:1px 1px 3px #999999;
+	opacity:.95;
+	background:white;
+	border-bottom:1px solid #aaa;
+}
+
+header#navbar.affix a.logo {
+	
+}
 
 
 /* Extra Small */ /* BREAKPOINT */
