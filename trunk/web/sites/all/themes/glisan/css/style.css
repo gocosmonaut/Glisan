@@ -11,6 +11,10 @@ body, h1, h2, h3, h4, a {
 	font-family: 'Oxygen', sans-serif !important;
 }
 
+body.navbar-is-fixed-top {
+	padding-top:110px !important;
+}
+
 div.main-container.container {
 	background:white;
 	border-radius:9px;
@@ -18,9 +22,32 @@ div.main-container.container {
 
 }
 
+a, button:hover, *:hover,  *, *:before, *:after{
+	 transition: all 0.3s ease 0.2s;
+}
+
+
 div.navbar-collapse.collapse {
 	padding:0px;
 }
+
+div.navbar-header {
+	width:100%;
+}
+
+div.navbar-header a.logo {
+	text-align:center;
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+}
+
+.navbar-default {
+	background:white;
+	border:0px;
+}
+
+
 
 h1.page-header {
 	display:none;
@@ -100,8 +127,9 @@ header#navbar.affix {
 	border-bottom:1px solid #aaa;
 }
 
-header#navbar.affix a.logo {
-	
+header#navbar.affix a.logo img {
+	width:40%;
+	height:auto;
 }
 
 
