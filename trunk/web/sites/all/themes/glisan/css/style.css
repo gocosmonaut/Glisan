@@ -22,7 +22,7 @@ div.main-container.container {
 
 }
 
-a, button:hover, *:hover,  *, *:before, *:after{
+a, button:hover, *:hover,  *, *:before, *:after {
 	 transition: all 0.3s ease 0.2s;
 }
 
@@ -128,12 +128,32 @@ header#navbar.affix {
 	opacity:.95;
 	background:white;
 	border-bottom:1px solid #aaa;
+	
 }
 
 header#navbar.affix a.logo img {
 	width:40%;
 	height:auto;
 }
+
+/* SLIDESHOW */
+
+div.view.view-slideshow.view-id-slideshow {
+	
+	border:1px solid black;
+}
+
+div.view.view-slideshow.view-id-slideshow div.views-field.views-field-title {
+	color:white;
+	font-size:4em;
+}
+
+div#views_slideshow_cycle_div_slideshow-block_0 {
+	background:red;
+	padding:2%;
+	width:100%;
+}
+
 
 
 /* Extra Small */ /* BREAKPOINT */
